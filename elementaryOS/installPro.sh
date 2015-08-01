@@ -35,3 +35,6 @@ sudo mount VBoxGuestAdditions_5.0.0.iso /mnt/VBGA/
 cd /mnt/VBGA/
 sudo ./VBoxLinuxAdditions.run
 
+sleep 5;
+shutdown -r now
+
