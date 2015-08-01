@@ -3,22 +3,22 @@
 cd ~/
 
 #First you update your system
-sudo -y apt-get update
+sudo apt-get -y update
 #sudo -y apt-get dist-upgrade
-sudo -y apt-get upgrade
+sudo apt-get -y upgrade
 
 # install php mysql apache webserver
 # sudo apt-get install apache2 mysql-server mysql-client php5 phpmyadmin
 
 # Install additional codecs to run all sorts of media
-sudo -y apt-get install ubuntu-restricted-extras
+sudo apt-get -y install ubuntu-restricted-extras
 
 # sudo apt-get install skype
 mkdir Upgrade
 cd ~/Upgrade
 
 #sudo -y apt-get install virtualbox-guest-dkms
-sudo -y apt-get install virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11
+sudo apt-get -y install virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11
 
 # Show listed all installed Packets on this System
 cat /etc/apt/sources.list  > sources.save.list
