@@ -51,4 +51,4 @@ umount /mnt/VBGA/
 sudo apt-get -y autoremove
 
 sleep 5;
-shutdown -r now
+sudo shutdown -r now
