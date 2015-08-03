@@ -23,9 +23,9 @@ sudo apt-get -y install virtualbox-guest-dkms virtualbox-guest-utils virtualbox-
 #mkdir ~/Upgrade
 #cd ~/Upgrade
 
-sudo add-apt-repository ppa:mpstark/elementary-tweaks-daily
-sudo apt-get -y update
-sudo apt-get -y install elementary-tweaks
+#sudo add-apt-repository ppa:mpstark/elementary-tweaks-daily
+#sudo apt-get -y update
+#sudo apt-get -y install elementary-tweaks
 
 # Show listed all installed Packets on this System
 #cat /etc/apt/sources.list  > sources.save.list
