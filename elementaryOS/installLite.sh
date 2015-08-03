@@ -6,8 +6,8 @@ sudo apt-get -y update
 #sudo apt-get -y dist-upgrade
 sudo apt-get -y upgrade
 
-# Install additional codecs to run of video media
-sudo apt-get -y install flashplugin-installer
+# to recovery of settings
+sudo apt-get -y install apt-clone
 
 sudo apt-get -y install skype
 
