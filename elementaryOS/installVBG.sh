@@ -3,9 +3,9 @@
 PATH=pwd
 
 # First you update your system
-#sudo apt-get -y update
+sudo apt-get -y update
 # Update all installed Programms, Kernel-Updates, Distributions-Updates
-#sudo apt-get -y dist-upgrade
+sudo apt-get -y dist-upgrade
 # or Update only all installed Programms
 #sudo apt-get -y upgrade
 
