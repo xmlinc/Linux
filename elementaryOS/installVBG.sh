@@ -45,10 +45,10 @@ cd /mnt/VBGA/
 sudo ./VBoxLinuxAdditions.run
 
 # get sharedFolder permissions
-usermod -aG vboxsf $USER
+sudo usermod -aG vboxsf $USER
 
 # umound cd disc with guest additions
-umount /mnt/VBGA/
+sudo umount /mnt/VBGA/
 
 sudo apt-get -y autoremove
 
