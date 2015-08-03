@@ -54,8 +54,8 @@ sudo apt-get -y autoremove
 
 sleep 3;
 # remove guest additions
-rm -rf ~/$FILE
+#rm -rf ~/$FILE
 # remove installer
-rm -rf ~/install*.sh
+rm -rf ~/install.sh
 
 sudo shutdown -r now
