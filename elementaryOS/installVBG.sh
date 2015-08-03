@@ -1,7 +1,6 @@
 #!/bin/bash
 
-PATH=pwd
-
+cd ~/
 # First you update your system
 sudo apt-get -y update
 # Update all installed Programms, Kernel-Updates, Distributions-Updates
@@ -56,8 +55,8 @@ sudo apt-get -y autoremove
 
 sleep 3;
 # remove guest additions
-rm -rf $PATH/$FILE
+rm -rf ~/$FILE
 # remove installer
-rm -rf $PATH/install*.sh
+rm -rf ~/install*.sh
 
 sudo shutdown -r now
