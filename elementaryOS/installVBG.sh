@@ -17,8 +17,7 @@ sudo apt-get -y install apt-clone
 sudo apt-get -y install ubuntu-restricted-extras
 
 # install virtualbox-guest-additions
-sudo apt-get -y install virtualbox-guest-dkms
-# virtualbox-guest-utils virtualbox-guest-x11
+sudo apt-get -y install virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11
 
 #cd ~/
 #mkdir ~/Upgrade
